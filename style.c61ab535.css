@@ -1,0 +1,17 @@
+/* i want a light pink color background, and large fonts in dark blue, in a fancy decorative font family. be creative. */
+
+body {
+	background-color: #d8e270; /* Light pink: MistyRose */
+	font-size: 2.5em; /* Large font size */
+	color: #df0e99; /* Dark blue: Navy */
+	font-family: "Edwardian Script ITC"; /* "Brush Script MT", cursive; */ 
+	/* Fancy decorative font */
+	/* Other options for fancy font include:
+	"Edwardian Script ITC",
+	"Monotype Corsiva",
+	"Lucida Calligraphy"you can use google fonts also
+	*/
+}
+
+
+/*# sourceMappingURL=/style.c61ab535.css.map */
