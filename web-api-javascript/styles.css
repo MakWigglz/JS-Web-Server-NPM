@@ -1,0 +1,20 @@
+iframe {
+  border: 10px solid rgb(221, 18, 18); /* Border styling */
+  width: 100%; /* Full width */
+  height: 500px; /* Set a specific height */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Add a shadow */
+  background-color: #f9f9f9; /* Background color */
+  overflow: hidden; /* Hide overflowing content */
+  padding: 10px; /* Add padding inside the iframe */
+  margin: 20px auto; /* Center the iframe with margin */
+  display: block; /* Ensure it's treated as a block element */
+  opacity: 0.9; /* Adjust transparency */
+  transform: scale(1.1); /* Scale the iframe */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+iframe:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  border-color: rgb(0, 123, 255); /* Change border color on hover */
+}
