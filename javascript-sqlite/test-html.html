@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form and link example</title>
+		<!-- Inline CSS -->
+		 <style>
+			body {
+				font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				margin: 20px;
+			}
+			form {
+				margin-top: 20px;
+			}
+			input[type="text"] {
+				display: block;
+				margin: 10px 0;
+				padding: 8px;
+				width: 200px;
+			}
+			input[type="button"], input[type="submit"], input[type="reset"] {
+				margin: 5px;
+				padding: 10px 15px;
+				cursor: pointer;
+			}
+		 </style>
+		 <script type="text/javascript">
+			alert("hello there");
+		 </script>
+	</head>
+	<body>
+		<!--Link-->
+		<a href="https://www.example.com" id="Makslink">Visit example.com</a>
+		<!-- form -->
+		<form id="myForm">
+			<label for="textField1">Text Field 1:</label>
+			<input type="text" id="textField1" name="textField1">
+			<label for="textField2">Text Field 2:</label>
+        <input type="text" id="textField2" name="textField2">
+
+        <label for="textField3">Text Field 3:</label>
+        <input type="text" id="textField3" name="textField3">
+
+        <label for="myCheckbox">
+            <input type="checkbox" id="myCheckbox" name="myCheckbox"> Check me!
+        </label>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+		</form>
+		<script language="JavaScript" src="test_html.js">
+		</script>
+	</body>
+</html>
