@@ -1,4 +1,4 @@
-# JS-Web-Server-NPM
+# JS-Web-Server-NPM (Disabled the workflow, after demonstrated success of jekyl)
 # Wigglz Pet Food Company - JavaScript Web Server
 
 This project demonstrates a simple JavaScript web server that uses Parcel as a bundler to handle HTML, CSS, and JavaScript files. It showcases basic front-end development concepts, including:
